@@ -15,7 +15,9 @@ Components:
 
 Arduino Uno
 Adafruit SSD1306 OLED Display
+
 DHT11 Temperature and Humidity Sensor
+
 MQ Sensor
 Adafruit NeoPixel LED Strip
 KY-037 Microphone Sensor
@@ -24,33 +26,33 @@ Connecting Wires
 Connections:
 
 OLED Display:
-VCC to 5V on Arduino
-GND to GND on Arduino
-SCL to A5 on Arduino
-SDA to A4 on Arduino
+VCC to 5V ,
+GND to GND ,
+SCL to A5 ,
+SDA to A4 ,
 RESET to GND (or any unused digital pin if needed)
 
 DHT11 Sensor:
-VCC to 5V on Arduino
-GND to GND on Arduino
-DATA to Digital Pin 2 on Arduino
+VCC to 5V ,
+GND to GND ,
+DATA to Digital Pin 2 
 
 MQ Sensor:
-AO (Analog Output) to A0 on Arduino
-DO (Digital Output) to Digital Pin 3 on Arduino
-VCC to 5V on Arduino
-GND to GND on Arduino
+AO (Analog Output) to A0 ,
+DO (Digital Output) to Digital Pin 3 ,
+VCC to 5V ,
+GND to GND 
 
 NeoPixel LED Strip:
-DIN to Digital Pin 8 on Arduino
-VCC to 5V on Arduino
-GND to GND on Arduino
+DIN to Digital Pin 8 ,
+VCC to 5V ,
+GND to GND 
 
 KY-037 Microphone Sensor:
-AO (Analog Output) to A1 on Arduino
-DO (Digital Output) to Digital Pin 4 on Arduino
-VCC to 5V on Arduino
-GND to GND on Arduino
+AO (Analog Output) to A1 ,
+DO (Digital Output) to Digital Pin 4 ,
+VCC to 5V ,
+GND to GND 
 
 #### In my build, I connected the 5V cables of the LED Strip, the gas sensor and the temperature sensor into one point to plug into a 5V port. For the OLED, the 3.3V was used, and the last remaining easily includable 5V was used for the microphone to get a consistent reading. 
 
